@@ -2,16 +2,17 @@ package main;
 
 import java.math.BigDecimal;
 /*
- * 基本扩展类
+ * 扩展类ExtraUtil
  * 包括改进的输出方法，产生整数数组的range方法，精确的浮点数计算方法
  * @author qjk
  * @author qjksxy@163.com
- * @version 0.1
+ * @version 0.1.1
  */
 public class EU {
+	private EU() {}
 	/*
-	 * 改进的输出方法，接受多个参数，对每个参数逐行输出
-	 * @param obj 欲输出的对象或数据
+	 * 改进的输出方法，接受多个参数，对每个参数换行输出
+	 * @param 欲输出的对象或数据 
 	 * @return 无返回值
 	 * @throws 无异常
 	 */
@@ -63,8 +64,8 @@ public class EU {
 	 * @throws BaseException 当参数begin大等于参数end时抛出此异常
 	 */
 	public static int[] range(int begin, int end) throws BaseException {
-		if(begin > end) {
-			throw new BaseException("range: begin 大于 end");
+		if(begin >= end) {
+			throw new BaseException("range: begin 大等于 end");
 		}
 		final int len = end-begin;
 		int[] array = new int[len];
@@ -82,8 +83,8 @@ public class EU {
 	 * @throws BaseException 当参数begin大等于参数end时抛出此异常
 	 */
 	public static int[] range(int begin, int end, int step) throws BaseException {
-		if(begin > end) {
-			throw new BaseException("range: begin 大于 end");
+		if(begin >= end) {
+			throw new BaseException("range: begin 大等于 end");
 		}
 		final int t = (end-begin)%step==0?0:1;
 		final int len = (end-begin) / step + t;
