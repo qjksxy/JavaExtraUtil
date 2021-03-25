@@ -1,4 +1,4 @@
-package main;
+package qjk;
 
 public class BaseException extends Exception {
 

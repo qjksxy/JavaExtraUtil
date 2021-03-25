@@ -1,16 +1,56 @@
-package main;
+package qjk;
 
 import java.math.BigDecimal;
+import java.util.Arrays;
+import java.util.Scanner;
 /**
  * 扩展类ExtraUtil
  * 
- * <p>包括改进的输出方法，产生整数数组的range方法，精确的浮点数计算方法</p>
+ * <p>包括改进的输入输出方法，产生整数数组的range方法，精确的浮点数计算方法</p>
  * @author qjk
  * @author qjksxy@163.com
- * @version 0.1.1
+ * @version 0.2
  */
 public class EU {
 	private EU() {}
+	private static Scanner sc;
+	private static Scanner getSc() {
+		if(sc == null) {
+			sc = new Scanner(System.in);
+		}
+		return sc;
+	}
+	
+	/**
+	 * 打印对象数组，独占一行输出，中间以", "间隔，并以方括号包裹
+	 * <p>该方法有对基本数据类型的重载</p>
+	 * @param <T> 任意类
+	 * @param arr 任意数组对象
+	 */
+	public static <T> void printArr(T[] arr) {
+		System.out.println(Arrays.toString(arr));
+	}
+	public static void printArr(int[] arr) {
+		System.out.println(Arrays.toString(arr));
+	}
+	public static void printArr(long[] arr) {
+		System.out.println(Arrays.toString(arr));
+	}
+	public static void printArr(short[] arr) {
+		System.out.println(Arrays.toString(arr));
+	}
+	public static void printArr(char[] arr) {
+		System.out.println(Arrays.toString(arr));
+	}
+	public static void printArr(float[] arr) {
+		System.out.println(Arrays.toString(arr));
+	}
+	public static void printArr(double[] arr) {
+		System.out.println(Arrays.toString(arr));
+	}
+	public static void printArr(boolean[] arr) {
+		System.out.println(Arrays.toString(arr));
+	}
 	/**
 	 * 改进的输出方法，接受多个参数，对每个参数换行输出
 	 * @param obj 欲输出的对象或数据 
@@ -39,6 +79,53 @@ public class EU {
 			System.out.print(", ");
 		}
 		System.out.print(obj[i]);
+	}
+	/**
+	 * 获取一个char类型输入数据
+	 * <p>请在使用结束后统一调用close方法</p>
+	 * @return 读取到的byte值
+	 */
+	public static byte scanByte() {
+		return getSc().nextByte();
+	}
+	/**
+	 * 获取一个int类型输入数据
+	 * <p>请在使用结束后统一调用close方法</p>
+	 * @return 读取到的int值
+	 */
+	public static int scanInt() {
+		return getSc().nextInt();
+	}
+	/**
+	 * 获取一个double类型输入数据
+	 * <p>请在使用结束后统一调用close方法</p>
+	 * @return 读取到的double值
+	 */
+	public static double scanDouble() {
+		return getSc().nextDouble();
+	}
+	/**
+	 * 获取一个String类型输入数据
+	 * <p>请在使用结束后统一调用close方法</p>
+	 * @return 读取到的String值
+	 */
+	public static String scanString() {
+		return getSc().next();
+	}
+	/**
+	 * 获取一行输入
+	 * <p>请在使用结束后统一调用close方法</p>
+	 * @return 读取到的字符串
+	 */
+	public static String scanLine() {
+		return getSc().nextLine();
+	}
+	/**
+	 * 请在调用scan类方法后调用，以释放资源
+	 */
+	public static void close() {
+		if(sc != null)
+			sc.close();
 	}
 	/**
 	 * 生成一个从0开始的int数组
