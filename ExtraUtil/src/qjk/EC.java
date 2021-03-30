@@ -13,6 +13,7 @@ import java.util.Set;
  * 避免了重复的泛型参数列表
  * @author qjk
  * @author qjksxy@163.com
+ * @version 0.2.2
  */
 public class EC {
 

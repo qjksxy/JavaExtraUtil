@@ -9,7 +9,7 @@ import java.io.IOException;
  * <p>将文件读写打包成单方法</p>
  * @author qjk
  * @author qjksxy@163.com
- * @version 0.2.1
+ * @version 0.2.2
  */
 public class EFile {
 	private EFile() {}
