@@ -29,13 +29,13 @@ for(int i : arr){
 
 或者
 
-```Java
+```java
 System.out.println(Arrays.toString(arr));
 ```
 
 而此项目中，您可以如下做：
 
-```Java
+```java
 EU.printArr(arr);
 ```
 
@@ -52,7 +52,7 @@ System.out.println(s);
 
 或
 
-```Java
+```java
 System.out.printf("%d\n%f\n%s\n", i, d, s);
 ```
 
@@ -66,13 +66,15 @@ EU.println(i, d, s);
 
 #### javadoc文档
 
+您可以访问在线查看javadoc文档。
+
 `javadoc`文档在`ExtraUtil\doc`文件夹下，您可以下载文档压缩包到本地查看。
 
 文档的主目录为`index.html`。
 
 ### 如何使用
 
-最简单的使用方法，下载`ExtraUtil\jar`文件夹下的jar包，并将其配置到你的工程中。
+最简单的使用方法，下载`ExtraUtil\jar`文件夹下或位于的jar包，并将其配置到你的工程中。
 
 建议您下载最新的jar包，以体验全部的功能。
 

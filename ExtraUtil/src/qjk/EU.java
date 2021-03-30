@@ -9,7 +9,7 @@ import java.util.Scanner;
  * <p>包括改进的输入输出方法，产生整数数组的range方法，精确的浮点数计算方法</p>
  * @author qjk
  * @author qjksxy@163.com
- * @version 0.2
+ * @version 0.2.1
  */
 public class EU {
 	private EU() {}
