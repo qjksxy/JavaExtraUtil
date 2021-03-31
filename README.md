@@ -66,7 +66,7 @@ EU.println(i, d, s);
 
 #### javadoc文档
 
-您可以访问在线查看javadoc文档。
+您可以访问[此处](piner.club/doc/index.html)在线查看javadoc文档。
 
 `javadoc`文档在`ExtraUtil\doc`文件夹下，您可以下载文档压缩包到本地查看。
 
@@ -74,7 +74,7 @@ EU.println(i, d, s);
 
 ### 如何使用
 
-最简单的使用方法，下载`ExtraUtil\jar`文件夹下或位于的jar包，并将其配置到你的工程中。
+最简单的使用方法，下载`ExtraUtil\jar`文件夹下或位于[此处](piner.club/doc/ExtraUtil.jar)的jar包，并将其配置到你的工程中。
 
 建议您下载最新的jar包，以体验全部的功能。
 
