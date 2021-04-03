@@ -78,7 +78,7 @@ EU.println(i, d, s);
 
 建议您下载最新的jar包，以体验全部的功能。
 
-在使用之前，最好应该对配置文件进行设置。详细信息请参见`配置文件说明`文档。
+在使用之前，最好应该对配置文件进行设置。详细信息请参见[`配置文件说明`](https://github.com/qjksxy/JavaExtraUtil/blob/main/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E.md)文档。
 
 #### Eclipse下jar包的配置方法
 
