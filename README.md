@@ -1,3 +1,5 @@
+**本项目不再维护**
+
 # JavaExtraUtil
 一个Java扩展工具包，可以更加方便简洁的编写Java代码，同时能帮助您熟悉javadoc、jar包和git。本工程完全开源，欢迎各位加入此工程建设。
 
@@ -66,15 +68,13 @@ EU.println(i, d, s);
 
 #### javadoc文档
 
-您可以访问[此处](http://piner.club/doc/index.html)在线查看javadoc文档。
-
 `javadoc`文档在`ExtraUtil\doc`文件夹下，您可以下载文档压缩包到本地查看。
 
 文档的主目录为`index.html`。
 
 ### 如何使用
 
-最简单的使用方法，下载`ExtraUtil\jar`文件夹下或位于[此处](http://piner.club/doc/ExtraUtil.jar)的jar包，并将其配置到你的工程中。
+最简单的使用方法，下载`ExtraUtil\jar`文件夹下的jar包，并将其配置到你的工程中。
 
 建议您下载最新的jar包，以体验全部的功能。
 
